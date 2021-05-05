@@ -1,0 +1,84 @@
+.hero {
+  background: #f8f8f8;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  margin: 50px 0 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  flex: 0.6;
+  flex-direction: column;
+}
+
+.left h1 {
+  font-size: 60px;
+  margin-bottom: 16px;
+}
+
+.left h2 {
+  font-size: 24px;
+  margin-bottom: 34px;
+}
+
+.left p {
+  font-size: 18px;
+  margin-bottom: 34px;
+  line-height: 26px;
+}
+
+.left button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  width: fit-content;
+  opacity: 0.5;
+  font-size: 18px;
+}
+
+.right {
+  display: flex;
+  flex: 0.4;
+  flex-direction: column;
+  align-items: center;
+}
+
+.makeStyles-root-1 {
+  width: 100%;
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+  margin: 28px 0 10px;
+  width: 100%;
+}
+
+.text button {
+  background-color: black !important;
+  color: white !important;
+}
+
+.MuiCardContent-root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-btn {
+  background-color: black !important;
+  color: white !important;
+}
+
+.MuiCardActions-spacing {
+  display: block !important;
+}

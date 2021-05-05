@@ -1,0 +1,35 @@
+.drag-to,
+.drag-from {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.drag-to .board {
+  border: 2px dashed rgb(187, 187, 187);
+  border-radius: 10px;
+}
+
+.drag {
+  cursor: grab;
+}
+
+.drag span {
+  font-weight: bold;
+}
+
+.board {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 150px;
+  height: 186px;
+}
+
+.middle {
+  margin: 0 32px;
+}
+
+img {
+  width: 150px;
+}

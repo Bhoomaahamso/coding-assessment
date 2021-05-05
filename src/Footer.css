@@ -1,0 +1,52 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0 48px;
+  margin-bottom: 66px;
+}
+
+.material h5 {
+  padding-bottom: 12px;
+  margin-bottom: 24px;
+  font-size: 14px;
+  opacity: 0.5;
+  font-weight: normal;
+  border-bottom: 1px solid rgba(194, 196, 207, 0.4);
+}
+
+.course {
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center;  */
+}
+
+.course-left,
+.course-right {
+  display: flex;
+  align-items: center;
+  width: 325px;
+}
+
+.course-left {
+  margin-right: 36px;
+}
+
+.course-left img,
+.course-right img {
+  width: 100px;
+  margin-right: 24px;
+}
+
+h4 {
+  margin-bottom: 4px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 17px;
+  opacity: 0.4;
+}

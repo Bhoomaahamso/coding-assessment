@@ -1,0 +1,140 @@
+.puzzle {
+  display: flex;
+}
+
+.sidebar {
+  display: flex;
+  flex: 0.5;
+  min-width: 130px;
+  flex-direction: column;
+  align-items: center;
+  margin-left: -32px;
+  padding-top: 34px;
+  background-color: black;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  margin-bottom: 12px;
+  opacity: 0.5;
+}
+
+a .back {
+  font-size: 14px !important;
+}
+
+.sidebar h3 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.riddle {
+  padding: 60px;
+}
+
+.riddle p {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 28px;
+  color: #161616;
+  opacity: 1;
+}
+
+.riddle ul {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 18px;
+  color: #161616;
+}
+
+.riddle li {
+  font-size: 18px;
+  line-height: 26px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  color: #161616;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 12px;
+}
+
+.explain {
+  color: black !important;
+  opacity: 1 !important;
+  border: 1px solid grey !important;
+}
+
+.answer {
+  color: white !important;
+  background-color: grey !important;
+}
+
+.progress {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 326px;
+  padding: 48px 32px 88px 48px;
+}
+
+button {
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  opacity: 0.5;
+  outline: none;
+  border: none;
+}
+
+.progress h3 {
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+.progress-bar {
+  display: flex;
+  align-items: center;
+}
+
+.bar-box {
+  display: block;
+  width: 40px;
+  height: 14px;
+  background-color: #f0f0f0;
+  transition: 0.2s ease-in-out;
+}
+
+.bar-box:hover {
+  transform: scale(1.1);
+  background-color: #d2d2d8;
+}
+
+.selected {
+  background: #ffc500;
+}
+
+.progress-bar .back {
+  font-size: 24px !important;
+}
+
+.progress-bar .forward {
+  font-size: 40px !important;
+}
+
+.selected:hover {
+  background: #ffc555;
+}

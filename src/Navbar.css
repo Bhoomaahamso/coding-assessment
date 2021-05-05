@@ -1,0 +1,84 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 32px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: -webkit-fill-available;
+  height: 60px;
+  background-color: white;
+  z-index: 100;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  max-width: 120px;
+}
+
+.logo img {
+  height: 42px;
+}
+
+.logo h3 {
+  margin-left: 12px;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.nav-item {
+  display: flex;
+  flex: 0.9;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+
+  flex: 0.27;
+}
+
+.options h5 {
+  letter-spacing: 0.2em;
+  font-size: 13px;
+  font-weight: 500;
+  margin-right: 40px;
+  color: #5d7e8e;
+  cursor: pointer;
+}
+
+.options h5:hover {
+  color: #1f1f1f;
+}
+
+.active {
+  color: #1f1f1f !important;
+  font-weight: bold !important;
+}
+
+.sign {
+  display: flex;
+  justify-content: space-between;
+  flex: 0.4;
+}
+
+.MuiButton-root {
+  flex: 0.45;
+}
+
+.MuiButton-label {
+  text-transform: initial;
+}
+
+.login {
+  color: #039be5 !important;
+  border: 1px solid #039be5 !important;
+}
+
+.signup {
+  color: white !important;
+  background-color: #039be5 !important;
+}
